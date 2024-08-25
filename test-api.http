@@ -1,0 +1,10 @@
+### Test POST Method
+POST http://127.0.0.1:5000/process
+Content-Type: application/json
+
+{
+    "input_array": [1, "a", 2, "b", "c", "d"]
+}
+
+### Test GET Method
+GET http://127.0.0.1:5000/process
